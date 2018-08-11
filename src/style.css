@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Header */
+.*{
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+
+#unicorp{
+    width: 160px;
+    height: 90px;
+    margin-left: 200px;
+    float: left;
+    background-image: url("image/logo/unicorp.png");
+}
+
+#vn{
+    width: 25px;
+    height: 14px;
+    float: left;
+    margin-left: 850px;
+    margin-top: 40px;
+    background-image: url(image/logo/vn.png);
+}
+
+#en{
+    width: 25px;
+    height: 14px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 40px;
+    background-image: url(image/logo/en.png);
+}
+
+#search{
+    width: 28px;
+    height: 18px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 37px;
+    background-image: url("image/logo/search.png");
+;
+}
+
+/* Background*/
+#background {
+    width: 100%;
+    height: 575px;
+    background-image: url(image/logo/banner.png);
+}
+
+img{
+    width: 1750px;
+    height: 850px;
+    margin-left: -60px;
+    position: absolute;
+    margin-top: -130px;
+}
+
+#gioithieu{
+    width: 1150px;
+    height: 800px;
+    margin-top: 350px;
+    margin-left: 200px;
+    position: absolute;
+
+}
+
+#menu{
+    width: 1150px;
+    height: 55px;
+    background-color: darkmagenta;
+}
+
+.menu1{
+    color:#FFFFFF;
+    float: left;
+    width:126px;
+    height:55px;
+    text-align: center;
+    font-family: Arial;
+    font-size:15px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.slide{
+    width: 1150px;
+    height: 745px;
+    background-color: #962eff;
+    opacity: 0.6;
+    margin-top: 0px;
+}
+
+#hhhv{
+
+    color: #FFFFFF;
+}
+/* Trang*/
+#trang{
+    width: 100%;
+    height: 1300px;
+    background-color: #FFFFFF;
+}
+
+/* Xam*/
+#xam{
+    width: 100%;
+    height:1000px;
+    background-color:#F0F0F0;
+}
+
+/*Nha tai tro*/
+#taitro{
+    width: 100%;
+    height: 220px;
+    background-color: #FFFFFF;
+}
+
+/*Lien he*/
+#lienhe{
+    width: 100%;
+    height: 250px;
+    background-color:#272525;
+}
