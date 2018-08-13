@@ -1,0 +1,47 @@
+#header{
+	background: #231f20;
+	width: 1349px;
+	height: 84px;
+	float: left;
+}
+#logo{
+	height: 84px;
+	widows: 156px;
+	margin-left: 50px;
+	float: left;
+}
+#search {
+	height: 100%;
+	width: auto;
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+
+}
+
+.menu1{
+    color:#FFFFFF;
+    float: left;
+    width:126px;
+    height:55px;
+    text-align: center;
+    font-family: Arial;
+    font-size:15px;
+    line-height: 55px;
+}
+#menu{
+    width: 1200px;
+    height: 55px;
+    background-color: #542670;
+    margin-left: 99px;
+    margin-top: -125px;
+
+}
+#slide{
+	height: 768px;
+	width: 1200px;
+	background: #962eff;
+    opacity: 0.7;
+    margin-top: -70px;
+    margin-left: 100px;
+}
