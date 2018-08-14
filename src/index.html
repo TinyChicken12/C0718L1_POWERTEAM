@@ -5,48 +5,138 @@
     <title>Hoa hậu hoàn vũ Việt Nam</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-
 <body>
-<!-Header->
-<div id="header">
-    <div id="unicorp"></div>
-    <div id="vn"></div>
-    <div id="en"></div>
-    <div id="search"></div>
-</div>
-<!-End Header->
 
-<!-Background->
-<div id="background">
-    <div id="hnie"><img src="image/hoahau/hoahau1.png"></div>
-        <div id="gioithieu">
-            <div id="menu">
-                <div class="menu1" id="1">
-                    <span>TRANG CHỦ</span>
-                </div>
-                <div class="menu1" id="2">
-                    <span>LỊCH TRÌNH</span>
-                </div>
-                <div class="menu1" id="3">HHHVVN2017</div>
-                <div class="menu1" id="4">ỨNG VIÊN</div>
-                <div class="menu1" id="5">TIN TỨC</div>
-                <div class="menu1" id="6">THƯ VIỆN</div>
-                <div class="menu1" id="7">ĐẶT VÉ</div>
-                <div class="menu1" id="8">ĐỐI TÁC</div>
-            </div>
-            <div class="slide">
+<div id = "background">
+    <div id = "header">
+        <div id="unicorp"></div>
+        <div id="vn"></div>
+        <div id="en"></div>
+        <div id="search"></div>
+    </div>
+    <div id="hnie"></div>
+    <div id="menu">
+        <!--<ul id="mainmenu">-->
+            <!--<li class="topmenu"><a href="#">TRANG CHỦ</a>-->
+            <!--</li>-->
+            <!--<li class="topmenu"><a href="#">LỊCH TRÌNH</a>-->
+                <!--<div id="divmenu1">-->
+                <!--<ul class="sub" id="sub1">-->
+                    <!--<li><a href="#">SƠ TUYỂN, SƠ KHẢO</a></li>-->
+                    <!--<li><a href="#">TRUYỀN HÌNH THỰC TẾ TẠI TP.HCM</a></li>-->
+                    <!--<li><a href="#">VÒNG BÁN KẾT</a></li>-->
+                    <!--<li><a href="#">VÒNG CHUNG KẾT</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li class="topmenu"><a href="#">HHHVVN2017</a>-->
+                <!--<ul class="sub" id="sub2">-->
+                    <!--<li><a href="#">ĐƠN VỊ TỔ CHỨC</a></li>-->
+                    <!--<li><a href="#">BAN GIÁM KHẢO</a></li>-->
+                    <!--<li><a href="#">THỂ LỆ</a></li>-->
+                    <!--<li><a href="#">LỊCH THI</a></li>-->
+                    <!--<li><a href="#">GIẢI THƯỞNG</a></li>-->
+                    <!--<li><a href="#">ĐĂNG KÝ DỰ THI</a></li>-->
+                    <!--<li><a href="#">GIẢI ĐÁP THẮC MẮC</a></li>-->
+                    <!--<li><a href="#">DOWNLOAD HỒ SƠ</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li class="topmenu"><a href="#">ỨNG VIÊN</a>-->
+                <!--<ul class="sub" id="sub3">-->
+                    <!--<li><a href="#">2015</a></li>-->
+                    <!--<li><a href="#">2017</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li class="topmenu"><a href="#">TIN TỨC</a></li>-->
+            <!--<li class="topmenu"><a href="#">THƯ VIỆN</a>-->
+                <!--<ul class="sub" id="sub4">-->
+                    <!--<li><a href="#">THƯ VIỆN ẢNH</a></li>-->
+                    <!--<li><a href="#">THƯ VIỆN VIDEO</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li class="topmenu"><a href="#">ĐẶT VÉ</a>-->
+                <!--<ul class="sub" id="sub5">-->
+                    <!--<li><a href="#">THÔNG TIN ĐẶT VÉ</a></li>-->
+                    <!--<li><a href="#">VÒNG BÁN KẾT</a></li>-->
+                    <!--<li><a href="#">VÒNG CHUNG KẾT</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li class="topmenu"><a href="#">ĐỐI TÁC</a>-->
+                <!--<ul class="sub" id="sub6">-->
+                    <!--<li><a href="#">ĐỐI TÁC</a></li>-->
+                    <!--<li><a href="#">LIÊN HỆ QUẢNG CÁO</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+        <!--</ul>-->
 
+        <div class="dropdown" id="trangchu">
+            <a href="#">TRANG CHỦ</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">LỊCH TRÌNH</button>
+            <div class="dropdown-content" id="lichtrinh">
+                <a href="#">SƠ TUYỂN, SƠ KHẢO</a>
+                <a href="#">TRUYỀN HÌNH THỰC TẾ TẠI TP.HCM</a>
+                <a href="#">VÒNG BÁN KẾT</a>
+                <a href="#">VÒNG CHUNG KẾT</a>
             </div>
         </div>
+        <div class="dropdown">
+            <button class="dropbtn">HHHVVN2017</button>
+            <div class="dropdown-content" id="hhhv2017">
+                <a href="#">ĐƠN VỊ TỔ CHỨC</a>
+                <a href="#">BAN GIÁM KHẢO</a>
+                <a href="#">THỂ LỆ</a>
+                <a href="#">LỊCH THI</a>
+                <a href="#">GIẢI THƯỞNG</a>
+                <a href="#">ĐĂNG KÝ DỰ THI</a>
+                <a href="#">GIẢI ĐÁP THẮC MẮC</a>
+                <a href="#">DOWNLOAD HỒ SƠ</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">ỨNG VIÊN</button>
+            <div class="dropdown-content" id="ungvien">
+                <a href="#">NĂM 2015</a>
+                <a href="#">NĂM 2017</a>
+            </div>
+        </div>
+        <div class="dropdown" id="tintuc">
+            <a href="#">TIN TỨC</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">THƯ VIỆN</button>
+            <div class="dropdown-content" id="thuvien">
+                <a href="#">THƯ VIỆN ẢNH</a>
+                <a href="#">THƯ VIỆN VIDEO</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">ĐẶT VÉ</button>
+            <div class="dropdown-content" id="datve">
+                <a href="#">THÔNG TIN ĐẶT VÉ</a>
+                <a href="#">VÒNG BÁN KẾT</a>
+                <a href="#">VÒNG CHUNG KẾT</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">ĐỐI TÁC</button>
+            <div class="dropdown-content" id="doitac">
+                <a href="#">ĐỐI TÁC</a>
+                <a href="#">LIÊN HỆ QUẢNG CÁO</a>
+            </div>
+        </div>
+
+    </div>
 </div>
-<!-End Background->
 
-<!-Trang->
-<div id="trang"></div>
-<!-End trang->
+<div id = "trang"></div>
 
-<div id="xam"></div>
-<div id="taitro"></div>
-<div id="lienhe"><div>
+<div id = "xam"></div>
+
+<div id = "taitro"></div>
+
+<div id = "lienhe"></div>
+
 </body>
 </html>
